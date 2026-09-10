@@ -81,10 +81,10 @@
             color: #ffffff;
             box-sizing: border-box;
         ">
-            <div style="font-size: 36px; margin-bottom: 10px;">📢</div>
-            <h3 style="margin: 0 0 10px 0; color: #38b6ff; font-size: 18px;">thông báo yêu cầu</h3>
+            <div style="font-size: 36px; margin-bottom: 10px;">\uD83D\uDCE2</div>
+            <h3 style="margin: 0 0 10px 0; color: #38b6ff; font-size: 18px;">\u0074\u0068\u00f4\u006e\u0067\u0020\u0062\u00e1\u006f\u0020\u0079\u00ea\u0075\u0020\u0063\u1ea7\u0075</h3>
             <p style="font-size: 13px; color: #a6adc8; margin-bottom: 20px; line-height: 1.4;">
-                bạn cần tham gia nhóm telegram để kích hoạt và sử dụng menu này!
+                \u0062\u1ea1\u006e\u0020\u0063\u1ea7\u006e\u0020\u0074\u0068\u0061\u006d\u0020\u0067\u0069\u0061\u0020\u006e\u0068\u00f3\u006d\u0020\u0074\u0065\u006c\u0065\u0067\u0072\u0061\u006d\u0020\u0111\u1ec3\u0020\u006b\u00ed\u0063\u0068\u0020\u0068\u006f\u1ea1\u0074\u0020\u0076\u00e0\u0020\u0073\u1eed\u0020\u0064\u1ee5\u006e\u0067\u0020\u006d\u0065\u006e\u0075\u0020\u006e\u00e0\u0079!
             </p>
             <button id="_0x9e0f" style="
                 width: 100%;
@@ -97,7 +97,7 @@
                 font-size: 14px;
                 cursor: pointer;
                 box-shadow: 0 4px 12px rgba(56, 182, 255, 0.3);
-            ">tham gia nhóm</button>
+            ">\u0074\u0068\u0061\u006d\u0020\u0067\u0069\u0061\u0020\u006e\u0068\u00f3\u006d</button>
         </div>
     `;
 
