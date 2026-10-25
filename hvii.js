@@ -9,11 +9,13 @@
       "settings": {
         "auth": "noauth",
         "udp": true
-      }
+      },
+      "tag": "socks-in"
     },
     {
       "port": 10809,
-      "protocol": "http"
+      "protocol": "http",
+      "tag": "http-in"
     }
   ],
   "outbounds": [
@@ -29,9 +31,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "wraith2.trollmodz.store",
-          "alpn": [
-            "h3"
-          ]
+          "alpn": ["h3"]
         },
         "hysteriaSettings": {
           "auth": "TRLL-A40E-7AFC-5EC9.1792863006.42d8200aba6d0af91a7f5f50758a029d",
@@ -41,10 +41,18 @@
           "fakeHwid": "UL50105W7N0TVAAN"
         }
       },
-      "tag": "NovaX by - hvidzios"
+      "tag": "proxy",
+      "remarks": "NovaX by - hvidzios"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
     }
   ],
-  "remarks": "NovaX by - hvidzios",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -83,28 +91,8 @@
           "full:dl-bs.ggpolarbear.com",
           "domain:freefiremobile-a.akamaihd.net"
         ]
-      },
-      {
-        "type": "field",
-        "outboundTag": "proxy",
-        "domain": [
-          "full:gin.freefireind.in",
-          "full:gin.freefiremobile.com",
-          "full:vodka.freefireind.in",
-          "full:dl.castle.freefiremobile.com",
-          "full:dl.cdn.freefiremobile.com",
-          "full:dl-core.cdn.freefiremobile.com",
-          "full:dl.gmc.freefiremobile.com",
-          "full:dl.aw.freefiremobile.com",
-          "full:dl.dir.freefiremobile.com",
-          "full:dl.bs.freefiremobile.com",
-          "full:dl.ak.freefiremobile.com",
-          "full:dl-sg-production.freefiremobile.com",
-          "full:dl-tata.freefireind.in",
-          "full:dl-bs.ggpolarbear.com",
-          "domain:freefiremobile-a.akamaihd.net"
-        ]
       }
     ]
-  }
+  },
+  "remarks": "NovaX by - hvidzios"
 }
