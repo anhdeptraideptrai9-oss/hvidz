@@ -9,13 +9,11 @@
       "settings": {
         "auth": "noauth",
         "udp": true
-      },
-      "tag": "socks-in"
+      }
     },
     {
       "port": 10809,
-      "protocol": "http",
-      "tag": "http-in"
+      "protocol": "http"
     }
   ],
   "outbounds": [
@@ -31,28 +29,22 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "wraith2.trollmodz.store",
-          "alpn": ["h3"]
+          "alpn": [
+            "h3"
+          ]
         },
         "hysteriaSettings": {
-          "auth": "TRLL-A40E-7AFC-5EC9.1792863006.42d8200aba6d0af91a7f5f50758a029d",
+          "auth": "TRLL-A79C-AB22-91A1.1792971007.c7ca9f35df6dc9a9ae2d6faaa1132bfe",
           "version": 2,
           "up": "50 mbps",
           "down": "100 mbps",
           "fakeHwid": "UL50105W7N0TVAAN"
         }
       },
-      "tag": "proxy",
-      "remarks": "NovaX by - hvidzios"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
+      "tag": "NovaX by - hvidzios"
     }
   ],
+  "remarks": "NovaX by - hvidzios",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -91,8 +83,28 @@
           "full:dl-bs.ggpolarbear.com",
           "domain:freefiremobile-a.akamaihd.net"
         ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+          "full:gin.freefireind.in",
+          "full:gin.freefiremobile.com",
+          "full:vodka.freefireind.in",
+          "full:dl.castle.freefiremobile.com",
+          "full:dl.cdn.freefiremobile.com",
+          "full:dl-core.cdn.freefiremobile.com",
+          "full:dl.gmc.freefiremobile.com",
+          "full:dl.aw.freefiremobile.com",
+          "full:dl.dir.freefiremobile.com",
+          "full:dl.bs.freefiremobile.com",
+          "full:dl.ak.freefiremobile.com",
+          "full:dl-sg-production.freefiremobile.com",
+          "full:dl-tata.freefireind.in",
+          "full:dl-bs.ggpolarbear.com",
+          "domain:freefiremobile-a.akamaihd.net"
+        ]
       }
     ]
-  },
-  "remarks": "NovaX by - hvidzios"
+  }
 }
